@@ -1,6 +1,6 @@
 # MarkovCreditStress
 
-** Simulating Credit Risk Transitions under Stress: A Markov Approach**
+**Simulating Credit Risk Transitions under Stress: A Markov Approach**
 
 This project simulates corporate credit rating migration and capital impact under stress scenarios using a **discrete-time Markov model**. It is designed to illustrate how credit quality deteriorates in a macroeconomic downturn and how this affects **downgrafe rates, default probabilities, and regulatory capital requirements**.
 
@@ -25,7 +25,7 @@ This project simulates corporate credit rating migration and capital impact unde
   - Assumed **Exposure at Default (EAD)** and **Risk Weights**
   - Capital ratio approximations
 
-## 📊 Sample Visualizations
+## Sample Visualizations
 
 - Heatmaps of transition matrices  
 - Bar charts of rating downgrades and defaults  
@@ -42,3 +42,35 @@ This project simulates corporate credit rating migration and capital impact unde
 ##  Regulatory Context
 
 This simulation mirrors **Basel III internal model frameworks**, where capital requirements depend on default probabilities and credit migration. The stress matrix is designed to mimic recessionary conditions, offering insight into **procyclicality and capital buffer needs** during downturns.
+
+## Use Cases
+
+- Regulatory capital planning under stress  
+- Teaching and academic illustration of credit rating models  
+- Scenario analysis for risk management teams
+
+## References
+
+The methodology and design of this simulation are informed by the following references:
+
+1. Jarrow, R. A., Lando, D., & Turnbull, S. M. (1997). A Markov model for the term structure of credit risk spreads. *Review of Financial Studies*, 10(2), 481–523.  
+2. Basel Committee on Banking Supervision (BCBS). (2005). *International Convergence of Capital Measurement and Capital Standards*. Bank for International Settlements.  
+3. Löffler, G., & Posch, P. N. (2011). *Credit Risk Modeling using Excel and VBA*. Wiley Finance.  
+4. Hull, J. C. (2018). *Risk Management and Financial Institutions*. Wiley.  
+
+> For educational use only. If you use or adapt this project, please cite the original references where appropriate.
+
+## Author
+
+**Yueming Cheng** – [LinkedIn](https://www.linkedin.com/in/yuemingcheng/) 
+*Risk Professional | Financial Modeler | Basel & Credit Risk Enthusiast*
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
+
+## Disclaimer
+
+This project is provided under the [MIT License](./LICENSE) and is intended for educational use only. All simulations use synthetic data and simplified assumptions.
+
+The views expressed are solely those of the author and do not represent the views of any current or former employer.
